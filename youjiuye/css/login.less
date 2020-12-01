@@ -1,0 +1,83 @@
+@import "./reset.less";
+@import "./common.less";
+
+.main {
+  height: 376px;
+  box-sizing: border-box;
+  padding-top: 66px;
+
+  .main-l {
+    float: left;
+    width: 53%;
+    min-width: 500px;
+    border-right: 1px solid #ccc;
+
+    form {
+      width: 315px;
+      margin: auto;
+
+      div {
+        height: 54px;
+        line-height: 54px;
+
+        label {
+          display: inline-block;
+          width: 36px;
+
+        }
+
+        input {
+          width: 269px;
+          height: 36px;
+          border: 1px solid #ccc;
+          outline: none;
+        }
+      }
+
+      button.login {
+        width: 269px;
+        height: 40px;
+        margin-top: 12px;
+        margin-left: 36px;
+        border: none;
+        color: #fff;
+        background-color: #ff0000;
+      }
+
+      .others {
+        text-align: right;
+
+        a {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  .main-r {
+    float: left;
+    width: 46%;
+    box-sizing: border-box;
+    padding-left: 100px;
+
+    .other_login {
+      height: 100px;
+      line-height: 100px;
+
+      img {
+        margin-right: 20px;
+      }
+    }
+
+    .content {
+      p:first-child {
+        font-weight: 700;
+      }
+
+      p {
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+  }
+}

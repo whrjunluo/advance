@@ -1,0 +1,152 @@
+@orange: #ff4905;
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+svg {
+    fill: currentColor;
+  }
+path {
+    fill: unset;
+  }
+
+.head {
+    height: 60px;
+    // position: fixed;
+    width: 100%;
+}
+
+// .head::after {
+//     content: "";
+//     display: block;
+//     width: 100%;
+//     height: 61px;
+//     visibility: hidden;
+// }
+
+.top-nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+
+    .loge {
+        display: block;
+        width: 220px;
+        // padding-top: 15px;
+    }
+
+    .nav-main {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-item {
+            display: inline-block;
+            font-size: 16px;
+            padding: 0px 10px;
+
+            .app-download {
+                display: inline-block;
+                text-align: center;
+                padding: 9px 7px;
+                border: 1px solid @orange;
+                color: @orange;
+                border-radius: 5px;
+            }
+        }
+
+    }
+
+    .nav-right {
+        display: flex;
+        width: 315px;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        .searcher {
+            height: 28px;
+            width: 150px;
+            border-radius: 15px;
+            border: 1px solid #e6e6e6;
+            background: url(../img/etk_09.jpg) no-repeat 95% center;
+
+            input {
+                width: 110px;
+                height: 100%;
+                margin-left: 10px;
+                border: none;
+                outline: none;
+                border-right: 1px solid #e6e6e6;
+                // border-left: 1px solid #e6e6e6;
+            }
+        }
+
+        .im {
+            width: 30px;
+            height: 30px;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .car {
+            background: url(../img/shopbar.jpg) no-repeat center;
+        }
+
+        .erweima {
+            background: url(../img/ujyx_14.jpg) no-repeat center;
+        }
+
+        .right-r {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+
+}
+
+// .footer::after {
+//     content: "";
+//     display: block;
+//     height: 170px;
+//     width: 100%;
+//     visibility: hidden;
+// }
+
+.footer {
+    // position: fixed;
+    // bottom: 0;
+    height: 170px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+    .aboutme {
+        font-size: 12px;
+        line-height: 60px;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .copyright {
+        font-size: 12px;
+        line-height: 60px;
+    }
+}
